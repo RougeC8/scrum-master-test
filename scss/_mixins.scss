@@ -1,0 +1,6 @@
+@mixin DesktopView($breakpoint) {
+  @media screen and (min-width:$breakpoint) {
+    @content
+  }
+  
+}
